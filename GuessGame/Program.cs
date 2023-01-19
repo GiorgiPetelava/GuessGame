@@ -14,7 +14,7 @@
 
         Console.WriteLine("System Guessed the Name of fruit. Try, to guess it.");
         string[] fruits = { "apple", "peach", "watermelon", "melon", "strawberry",
-                            "orange","berry","cherry","banana","grape","Kiwi","Lemon" };
+                            "orange","berry","cherry","banana","grape","Kiwi","Lemon","pineapple"};
 
         Random randomWord = new Random();
         int index = randomWord.Next(0, fruits.Length);
